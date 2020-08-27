@@ -11,5 +11,11 @@ Gherkin is a language that developers use to define tests in Cucumber. It’s me
 
 Results: Every test case result is attched in "TestResults" Folder.
 
-Limitations used for tests: -->When it comes to performance testing, it seems to be very impractical in terms of manual testing. -->Designing a perfect automation script need some solid understanding of software development principles which automation testers lack most of the time. Thus everyone follow their own standards while developing scripts. -->All functionalities for selenium are written in "SeleniumFunctions.java" and this class is Extended by all Steps classes. -->All Steps Classes are written their respective Names based on the scenarios in "stpDefinition" package. -->Used Natural 0.9 plugin for eclipse.
-It is a set of plugins providing a smooth experience in editing and maintaining BDD files. Currently supported to Cucumber (Gherkin syntax). -->Cucumber Eclipse Plugin 1.0.0.202005150629. -->Compliance level:jdk1.8.0_191 -->All Dependencies such as seleniumhq, junit, cucumber-testng, cucumber-jvm-deps, etc are listed in pom.xml
+Limitations used for tests: 
+-->When it comes to performance testing, it seems to be very impractical in terms of manual testing. 
+-->Designing a perfect automation script need some solid understanding of software development principles which automation testers lack most of the time. Thus everyone follow        their own standards while developing scripts. 
+-->All functionalities for selenium are written in "SeleniumFunctions.java" and this class is Extended by all Steps classes. 
+-->All Steps Classes are written their respective Names based on the scenarios in "stpDefinition" package. -->Used Natural 0.9 plugin for eclipse.
+   It is a set of plugins providing a smooth experience in editing and maintaining BDD files. Currently supported to Cucumber (Gherkin syntax). 
+-->Cucumber Eclipse Plugin 1.0.0.202005150629. -->Compliance level:jdk1.8.0_191 
+-->All Dependencies such as seleniumhq, junit, cucumber-testng, cucumber-jvm-deps, etc are listed in pom.xml
